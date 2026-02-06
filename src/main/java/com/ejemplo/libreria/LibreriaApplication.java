@@ -8,7 +8,7 @@ import org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration;
 // Excluimos las configuraciones automáticas de base de datos ya que no las usamos todavía
 @SpringBootApplication (exclude = {
 	DataSourceAutoConfiguration.class,
-	HibernateJpaAutoConfiguration.class
+	HibernateJpaAutoConfiguration.class,
 })
 public class LibreriaApplication {
 
